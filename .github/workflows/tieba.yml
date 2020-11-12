@@ -39,7 +39,7 @@ jobs:
         run: |
           node tieba.js
         env:
-          JD_COOKIE: ${{ secrets.CookieTB }}
+          JD_COOKIE: ${{ secrets.chavy_cookie_tieba }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
           BARK_SOUND: ${{ secrets.BARK_SOUND }}
