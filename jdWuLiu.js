@@ -33,7 +33,7 @@ $.carriageIdArr[0] &&
   $.carriageIdArr.splice(0, 1);
 
 let cookies = [];
-cookies.push($.getData('CookieJD'));
+cookies.push($.getData('pt_key=AAJfvcVuADBzC_x9IiZsNnUSHVfUkrAYOhWzErWDAHsRhJTwi53G-7txjAuBaOMZb410mgwdUQQ;pt_pin=jd_47aa4bc6389d1;'));
 $.getData('CookieJD2') && cookies.push($.getData('CookieJD2'));
 
 const extraCookies = JSON.parse($.getData('CookiesJD') || '[]').map(
