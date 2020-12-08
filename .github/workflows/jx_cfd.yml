@@ -6,7 +6,7 @@ name: jx_cfd
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 23 * * *'
+    - cron: '0 * * * *'
   watch:
     types: started
   repository_dispatch:
