@@ -41,7 +41,7 @@ jobs:
         env:
           SIGNHEADER: ${{ secrets.SIGNHEADER }}
           SIGNCOOKIE: ${{ secrets.SIGNCOOKIE }}
-          READHEADER: ${{ secrets.READHEADER }}:  
+          READHEADER: ${{ secrets.READHEADER }}  
           READKEY: ${{ secrets.READKEY }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
